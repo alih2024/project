@@ -55,11 +55,8 @@ inflation %>%
 # use a function without loading the package:
 # package::function
 usethis::use_git_config(
-  user.name = "ALi H", # <-- change to your name
-  user.email = "ali.hosin@gmail.com", # <-- and your email
-  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
-usethis::use_git()
+  user.name = "Ali",
+  user.email = "ali.hosin@gmail.com", 
+  init.defaultBranch = "main") 
 
 usethis::use_git()
-
-
