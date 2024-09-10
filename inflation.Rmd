@@ -60,3 +60,9 @@ usethis::use_git_config(
   init.defaultBranch = "main") 
 
 usethis::use_git()
+# next
+  theme_minimal() +
+  ylab("subjective inflation in %-points") +
+  labs(color = "") +
+  theme(legend.position = c(.1, .9)) +
+
